@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Nanum+Gothic&family=Ubuntu:wght@300;400&display=swap');
+
+body {
+    background-color: antiquewhite;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 60px;
+    padding: 0 8px;
+}
+
+.container {
+    min-height: 55vh;
+    background-color: rgb(8, 8, 8);
+    color: rgb(8, 8, 8);
+    font-family: Be Vietnam Pro, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 75%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('SelenaGomezS.jpg');
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    margin-top: 15px; 
+}
+.icons i {
+    cursor: pointer;
+}
+
+#myProgressBar {
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItemContainer {
+    margin-top: 24px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: rgba(209, 208, 208, 0.589);
+    
+    margin: 30px 150px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img {
+    width: 43px;
+    margin: 15px 10px;
+    border-radius: 34px;
+}
+
+.timeStamp {
+    margin: 0 23px;
+}
+
+.timeStamp i {
+    margin: 0 23px;
+}
+
+.songInfo {
+    position: absolute;
+    left: 2vw;
+    font-family:'Be Vietnam Pro', sans-serif;
+    color: white;
+    margin-top: -7.5vh;
+}
